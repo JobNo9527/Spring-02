@@ -79,7 +79,7 @@
 > (2) `@Scope` : 传入`singleton`是单例,传入`prototype`是非单例
 > 
 > (3) `@PropertySource` 字符串数组传入多个properties文件，同时不允许通配符*，用的时候这样写`${}`即可，
-> 某些情况下加上`classpath*:`
+> 某些情况下加上`classpath:`，不允许通配符出现。
 
 ### 六.注解式开发下的bean的生命周期
 
